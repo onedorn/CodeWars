@@ -1,0 +1,1 @@
+const gap = num => Math.max.apply(null, (num >>> 0).toString(2).match(/0*(!?1)/g).map(o => o.length - 1))
